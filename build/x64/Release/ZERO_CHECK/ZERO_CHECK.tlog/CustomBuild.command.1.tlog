@@ -1,0 +1,10 @@
+^C:\USERS\ARJUN\ONEDRIVE\DOCUMENTS\LAB_FILES\VFD_SOLVENT_FRONT_TESTS\SOLVENTGRADIENTTOCSV\BUILD\CMAKEFILES\271D2A774D7A708A4F6CB3E9B9D67AA5\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV -BC:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/SolventgradientToCSV.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

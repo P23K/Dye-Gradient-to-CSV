@@ -1,0 +1,1 @@
+Please specify Distance Upperbound (Distance at left side of all images): Please specify Distance Lowerbound (Distance at right side of all images): Specify channel to analyze (R/G/B): Please specify the Gaussian blur radius (integers only; default = 10, for no blur, enter 0): Enter the path to the input folder: Enter 

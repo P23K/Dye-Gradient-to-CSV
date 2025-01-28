@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Arjun\OneDrive\Documents\Lab_Files\VFD_Solvent_Front_Tests\SolventgradientToCSV\build\CMakeFiles\271d2a774d7a708a4f6cb3e9b9d67aa5\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0608B7C1-A81C-3836-9ED1-A76F660696A3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

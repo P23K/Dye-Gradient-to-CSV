@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Arjun\OneDrive\Documents\Lab_Files\VFD_Solvent_Front_Tests\SolventgradientToCSV\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Arjun\OneDrive\Documents\Lab_Files\VFD_Solvent_Front_Tests\SolventgradientToCSV\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\Arjun\OneDrive\Documents\Lab_Files\VFD_Solvent_Front_Tests\SolventgradientToCSV\resources.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2B000260-FAC8-39AC-B1D6-2601130FAD48}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+{
+    "cmake.cmakePath": "C:\\ProgramData\\chocolatey\\bin\\cmake.exe",
+    "cmake.configureOnOpen": true,
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/**",
+        "C:/dev/vcpkg/installed/x64-windows/include",
+        "C:/dev/vcpkg/installed/x64-windows/include/opencv4"
+    ],
+    "C_Cpp.default.compilerPath": "C:/mingw64/bin/g++.exe",
+    "C_Cpp.default.intelliSenseMode": "windows-gcc-x64"
+} 

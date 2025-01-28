@@ -1,0 +1,2056 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+      Build started 1/25/2025 5:09:05 PM.
+      
+      Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\dev\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\dev\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\dev\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\dev\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\dev\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.71
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/3.31.4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+      Build started 1/25/2025 5:09:06 PM.
+      
+      Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\dev\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\dev\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\dev\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\dev\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\dev\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.68
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/3.31.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-kd5emu"
+      binary: "C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-kd5emu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/dev/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/dev/vcpkg"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-kd5emu'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_445d1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+        Build started 1/25/2025 5:09:07 PM.
+        
+        Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kd5emu\\cmTC_445d1.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_445d1.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kd5emu\\Debug\\".
+          Creating directory "cmTC_445d1.dir\\Debug\\cmTC_445d1.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_445d1.dir\\Debug\\cmTC_445d1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_445d1.dir\\Debug\\cmTC_445d1.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_445d1.dir\\Debug\\\\" /Fd"cmTC_445d1.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_445d1.dir\\Debug\\\\" /Fd"cmTC_445d1.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kd5emu\\Debug\\cmTC_445d1.exe" /INCREMENTAL /ILK:"cmTC_445d1.dir\\Debug\\cmTC_445d1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-kd5emu/Debug/cmTC_445d1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-kd5emu/Debug/cmTC_445d1.lib" /MACHINE:X64  /machine:x64 cmTC_445d1.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_445d1.vcxproj -> C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kd5emu\\Debug\\cmTC_445d1.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_445d1.dir\\Debug\\cmTC_445d1.tlog\\unsuccessfulbuild".
+          Touching "cmTC_445d1.dir\\Debug\\cmTC_445d1.tlog\\cmTC_445d1.lastbuildstate".
+        Done Building Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kd5emu\\cmTC_445d1.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.35
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.41.34120.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-mnju45"
+      binary: "C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-mnju45"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/dev/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/dev/vcpkg"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-mnju45'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_41e68.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+        Build started 1/25/2025 5:09:08 PM.
+        
+        Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mnju45\\cmTC_41e68.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_41e68.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mnju45\\Debug\\".
+          Creating directory "cmTC_41e68.dir\\Debug\\cmTC_41e68.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_41e68.dir\\Debug\\cmTC_41e68.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_41e68.dir\\Debug\\cmTC_41e68.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_41e68.dir\\Debug\\\\" /Fd"cmTC_41e68.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_41e68.dir\\Debug\\\\" /Fd"cmTC_41e68.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mnju45\\Debug\\cmTC_41e68.exe" /INCREMENTAL /ILK:"cmTC_41e68.dir\\Debug\\cmTC_41e68.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-mnju45/Debug/cmTC_41e68.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-mnju45/Debug/cmTC_41e68.lib" /MACHINE:X64  /machine:x64 cmTC_41e68.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_41e68.vcxproj -> C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mnju45\\Debug\\cmTC_41e68.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_41e68.dir\\Debug\\cmTC_41e68.tlog\\unsuccessfulbuild".
+          Touching "cmTC_41e68.dir\\Debug\\cmTC_41e68.tlog\\cmTC_41e68.lastbuildstate".
+        Done Building Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mnju45\\cmTC_41e68.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.36
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.41.34120.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/dev/vcpkg/installed/x64-windows/share/opencv4/OpenCVModules.cmake:34 (find_dependency)"
+      - "C:/dev/vcpkg/installed/x64-windows/share/opencv4/OpenCVConfig.cmake:126 (include)"
+      - "C:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-ucus8d"
+      binary: "C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-ucus8d"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/dev/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/dev/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-ucus8d'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e2d0c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+        Build started 1/25/2025 5:09:08 PM.
+        
+        Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ucus8d\\cmTC_e2d0c.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_e2d0c.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ucus8d\\Debug\\".
+          Creating directory "cmTC_e2d0c.dir\\Debug\\cmTC_e2d0c.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_e2d0c.dir\\Debug\\cmTC_e2d0c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_e2d0c.dir\\Debug\\cmTC_e2d0c.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e2d0c.dir\\Debug\\\\" /Fd"cmTC_e2d0c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ucus8d\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e2d0c.dir\\Debug\\\\" /Fd"cmTC_e2d0c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ucus8d\\src.c"
+          src.c
+        C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ucus8d\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ucus8d\\cmTC_e2d0c.vcxproj]
+        Done Building Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ucus8d\\cmTC_e2d0c.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ucus8d\\cmTC_e2d0c.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ucus8d\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ucus8d\\cmTC_e2d0c.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.22
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/dev/vcpkg/installed/x64-windows/share/opencv4/OpenCVModules.cmake:34 (find_dependency)"
+      - "C:/dev/vcpkg/installed/x64-windows/share/opencv4/OpenCVConfig.cmake:126 (include)"
+      - "C:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-wskyw1"
+      binary: "C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-wskyw1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/dev/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/dev/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-wskyw1'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0d8c3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+        Build started 1/25/2025 5:09:09 PM.
+        
+        Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wskyw1\\cmTC_0d8c3.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_0d8c3.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wskyw1\\Debug\\".
+          Creating directory "cmTC_0d8c3.dir\\Debug\\cmTC_0d8c3.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_0d8c3.dir\\Debug\\cmTC_0d8c3.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_0d8c3.dir\\Debug\\cmTC_0d8c3.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0d8c3.dir\\Debug\\\\" /Fd"cmTC_0d8c3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wskyw1\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0d8c3.dir\\Debug\\\\" /Fd"cmTC_0d8c3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wskyw1\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wskyw1\\Debug\\cmTC_0d8c3.exe" /INCREMENTAL /ILK:"cmTC_0d8c3.dir\\Debug\\cmTC_0d8c3.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-wskyw1/Debug/cmTC_0d8c3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-wskyw1/Debug/cmTC_0d8c3.lib" /MACHINE:X64  /machine:x64 cmTC_0d8c3.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wskyw1\\cmTC_0d8c3.vcxproj]
+        Done Building Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wskyw1\\cmTC_0d8c3.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wskyw1\\cmTC_0d8c3.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wskyw1\\cmTC_0d8c3.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.29
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/dev/vcpkg/installed/x64-windows/share/opencv4/OpenCVModules.cmake:34 (find_dependency)"
+      - "C:/dev/vcpkg/installed/x64-windows/share/opencv4/OpenCVConfig.cmake:126 (include)"
+      - "C:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-x62ejz"
+      binary: "C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-x62ejz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/dev/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/dev/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-x62ejz'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c3dd0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+        Build started 1/25/2025 5:09:09 PM.
+        
+        Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x62ejz\\cmTC_c3dd0.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_c3dd0.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x62ejz\\Debug\\".
+          Creating directory "cmTC_c3dd0.dir\\Debug\\cmTC_c3dd0.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_c3dd0.dir\\Debug\\cmTC_c3dd0.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_c3dd0.dir\\Debug\\cmTC_c3dd0.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c3dd0.dir\\Debug\\\\" /Fd"cmTC_c3dd0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x62ejz\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c3dd0.dir\\Debug\\\\" /Fd"cmTC_c3dd0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x62ejz\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x62ejz\\Debug\\cmTC_c3dd0.exe" /INCREMENTAL /ILK:"cmTC_c3dd0.dir\\Debug\\cmTC_c3dd0.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-x62ejz/Debug/cmTC_c3dd0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-x62ejz/Debug/cmTC_c3dd0.lib" /MACHINE:X64  /machine:x64 cmTC_c3dd0.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x62ejz\\cmTC_c3dd0.vcxproj]
+        Done Building Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x62ejz\\cmTC_c3dd0.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x62ejz\\cmTC_c3dd0.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x62ejz\\cmTC_c3dd0.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.29
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+      Build started 1/26/2025 12:54:53 PM.
+      
+      Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\dev\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\dev\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\dev\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\dev\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\dev\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.03
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/3.31.4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+      Build started 1/26/2025 12:54:54 PM.
+      
+      Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\dev\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\dev\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\dev\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\dev\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\dev\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.80
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/3.31.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-2sdfip"
+      binary: "C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-2sdfip"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/dev/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/dev/vcpkg"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-2sdfip'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_972d5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+        Build started 1/26/2025 12:54:55 PM.
+        
+        Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2sdfip\\cmTC_972d5.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_972d5.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2sdfip\\Debug\\".
+          Creating directory "cmTC_972d5.dir\\Debug\\cmTC_972d5.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_972d5.dir\\Debug\\cmTC_972d5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_972d5.dir\\Debug\\cmTC_972d5.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_972d5.dir\\Debug\\\\" /Fd"cmTC_972d5.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_972d5.dir\\Debug\\\\" /Fd"cmTC_972d5.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2sdfip\\Debug\\cmTC_972d5.exe" /INCREMENTAL /ILK:"cmTC_972d5.dir\\Debug\\cmTC_972d5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-2sdfip/Debug/cmTC_972d5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-2sdfip/Debug/cmTC_972d5.lib" /MACHINE:X64  /machine:x64 cmTC_972d5.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_972d5.vcxproj -> C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2sdfip\\Debug\\cmTC_972d5.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_972d5.dir\\Debug\\cmTC_972d5.tlog\\unsuccessfulbuild".
+          Touching "cmTC_972d5.dir\\Debug\\cmTC_972d5.tlog\\cmTC_972d5.lastbuildstate".
+        Done Building Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2sdfip\\cmTC_972d5.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.41
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.41.34120.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-qwj2p1"
+      binary: "C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-qwj2p1"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/dev/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/dev/vcpkg"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-qwj2p1'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_60083.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+        Build started 1/26/2025 12:54:56 PM.
+        
+        Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qwj2p1\\cmTC_60083.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_60083.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qwj2p1\\Debug\\".
+          Creating directory "cmTC_60083.dir\\Debug\\cmTC_60083.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_60083.dir\\Debug\\cmTC_60083.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_60083.dir\\Debug\\cmTC_60083.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_60083.dir\\Debug\\\\" /Fd"cmTC_60083.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_60083.dir\\Debug\\\\" /Fd"cmTC_60083.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qwj2p1\\Debug\\cmTC_60083.exe" /INCREMENTAL /ILK:"cmTC_60083.dir\\Debug\\cmTC_60083.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-qwj2p1/Debug/cmTC_60083.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-qwj2p1/Debug/cmTC_60083.lib" /MACHINE:X64  /machine:x64 cmTC_60083.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_60083.vcxproj -> C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qwj2p1\\Debug\\cmTC_60083.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_60083.dir\\Debug\\cmTC_60083.tlog\\unsuccessfulbuild".
+          Touching "cmTC_60083.dir\\Debug\\cmTC_60083.tlog\\cmTC_60083.lastbuildstate".
+        Done Building Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qwj2p1\\cmTC_60083.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.36
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.41.34120.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/dev/vcpkg/installed/x64-windows/share/opencv4/OpenCVModules.cmake:34 (find_dependency)"
+      - "C:/dev/vcpkg/installed/x64-windows/share/opencv4/OpenCVConfig.cmake:126 (include)"
+      - "C:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-yo8em3"
+      binary: "C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-yo8em3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/dev/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/dev/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-yo8em3'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c6670.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+        Build started 1/26/2025 12:54:57 PM.
+        
+        Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yo8em3\\cmTC_c6670.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_c6670.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yo8em3\\Debug\\".
+          Creating directory "cmTC_c6670.dir\\Debug\\cmTC_c6670.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_c6670.dir\\Debug\\cmTC_c6670.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_c6670.dir\\Debug\\cmTC_c6670.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c6670.dir\\Debug\\\\" /Fd"cmTC_c6670.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yo8em3\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c6670.dir\\Debug\\\\" /Fd"cmTC_c6670.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yo8em3\\src.c"
+          src.c
+        C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yo8em3\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yo8em3\\cmTC_c6670.vcxproj]
+        Done Building Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yo8em3\\cmTC_c6670.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yo8em3\\cmTC_c6670.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yo8em3\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yo8em3\\cmTC_c6670.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.24
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/dev/vcpkg/installed/x64-windows/share/opencv4/OpenCVModules.cmake:34 (find_dependency)"
+      - "C:/dev/vcpkg/installed/x64-windows/share/opencv4/OpenCVConfig.cmake:126 (include)"
+      - "C:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-xi4iak"
+      binary: "C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-xi4iak"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/dev/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/dev/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-xi4iak'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a0550.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+        Build started 1/26/2025 12:54:57 PM.
+        
+        Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xi4iak\\cmTC_a0550.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_a0550.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xi4iak\\Debug\\".
+          Creating directory "cmTC_a0550.dir\\Debug\\cmTC_a0550.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_a0550.dir\\Debug\\cmTC_a0550.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_a0550.dir\\Debug\\cmTC_a0550.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a0550.dir\\Debug\\\\" /Fd"cmTC_a0550.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xi4iak\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a0550.dir\\Debug\\\\" /Fd"cmTC_a0550.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xi4iak\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xi4iak\\Debug\\cmTC_a0550.exe" /INCREMENTAL /ILK:"cmTC_a0550.dir\\Debug\\cmTC_a0550.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-xi4iak/Debug/cmTC_a0550.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-xi4iak/Debug/cmTC_a0550.lib" /MACHINE:X64  /machine:x64 cmTC_a0550.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xi4iak\\cmTC_a0550.vcxproj]
+        Done Building Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xi4iak\\cmTC_a0550.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xi4iak\\cmTC_a0550.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xi4iak\\cmTC_a0550.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.28
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/dev/vcpkg/installed/x64-windows/share/opencv4/OpenCVModules.cmake:34 (find_dependency)"
+      - "C:/dev/vcpkg/installed/x64-windows/share/opencv4/OpenCVConfig.cmake:126 (include)"
+      - "C:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-97baff"
+      binary: "C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-97baff"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/dev/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/dev/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-97baff'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ee4c9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+        Build started 1/26/2025 12:54:57 PM.
+        
+        Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-97baff\\cmTC_ee4c9.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_ee4c9.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-97baff\\Debug\\".
+          Creating directory "cmTC_ee4c9.dir\\Debug\\cmTC_ee4c9.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_ee4c9.dir\\Debug\\cmTC_ee4c9.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_ee4c9.dir\\Debug\\cmTC_ee4c9.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ee4c9.dir\\Debug\\\\" /Fd"cmTC_ee4c9.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-97baff\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ee4c9.dir\\Debug\\\\" /Fd"cmTC_ee4c9.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-97baff\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-97baff\\Debug\\cmTC_ee4c9.exe" /INCREMENTAL /ILK:"cmTC_ee4c9.dir\\Debug\\cmTC_ee4c9.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-97baff/Debug/cmTC_ee4c9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-97baff/Debug/cmTC_ee4c9.lib" /MACHINE:X64  /machine:x64 cmTC_ee4c9.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-97baff\\cmTC_ee4c9.vcxproj]
+        Done Building Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-97baff\\cmTC_ee4c9.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-97baff\\cmTC_ee4c9.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-97baff\\cmTC_ee4c9.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.29
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+      Build started 1/27/2025 8:53:35 AM.
+      
+      Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\dev\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\dev\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\dev\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\dev\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\dev\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.93
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/3.31.4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+      Build started 1/27/2025 8:53:36 AM.
+      
+      Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\dev\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\dev\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\dev\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\dev\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\dev\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.70
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/3.31.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-4xeord"
+      binary: "C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-4xeord"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/dev/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/dev/vcpkg"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-4xeord'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c7389.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+        Build started 1/27/2025 8:53:37 AM.
+        
+        Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4xeord\\cmTC_c7389.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_c7389.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4xeord\\Debug\\".
+          Creating directory "cmTC_c7389.dir\\Debug\\cmTC_c7389.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_c7389.dir\\Debug\\cmTC_c7389.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_c7389.dir\\Debug\\cmTC_c7389.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c7389.dir\\Debug\\\\" /Fd"cmTC_c7389.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c7389.dir\\Debug\\\\" /Fd"cmTC_c7389.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4xeord\\Debug\\cmTC_c7389.exe" /INCREMENTAL /ILK:"cmTC_c7389.dir\\Debug\\cmTC_c7389.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-4xeord/Debug/cmTC_c7389.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-4xeord/Debug/cmTC_c7389.lib" /MACHINE:X64  /machine:x64 cmTC_c7389.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_c7389.vcxproj -> C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4xeord\\Debug\\cmTC_c7389.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_c7389.dir\\Debug\\cmTC_c7389.tlog\\unsuccessfulbuild".
+          Touching "cmTC_c7389.dir\\Debug\\cmTC_c7389.tlog\\cmTC_c7389.lastbuildstate".
+        Done Building Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4xeord\\cmTC_c7389.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.37
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.41.34120.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-dj5m8j"
+      binary: "C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-dj5m8j"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/dev/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/dev/vcpkg"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-dj5m8j'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a634a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+        Build started 1/27/2025 8:53:38 AM.
+        
+        Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dj5m8j\\cmTC_a634a.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_a634a.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dj5m8j\\Debug\\".
+          Creating directory "cmTC_a634a.dir\\Debug\\cmTC_a634a.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_a634a.dir\\Debug\\cmTC_a634a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_a634a.dir\\Debug\\cmTC_a634a.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a634a.dir\\Debug\\\\" /Fd"cmTC_a634a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a634a.dir\\Debug\\\\" /Fd"cmTC_a634a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dj5m8j\\Debug\\cmTC_a634a.exe" /INCREMENTAL /ILK:"cmTC_a634a.dir\\Debug\\cmTC_a634a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-dj5m8j/Debug/cmTC_a634a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-dj5m8j/Debug/cmTC_a634a.lib" /MACHINE:X64  /machine:x64 cmTC_a634a.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_a634a.vcxproj -> C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dj5m8j\\Debug\\cmTC_a634a.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_a634a.dir\\Debug\\cmTC_a634a.tlog\\unsuccessfulbuild".
+          Touching "cmTC_a634a.dir\\Debug\\cmTC_a634a.tlog\\cmTC_a634a.lastbuildstate".
+        Done Building Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dj5m8j\\cmTC_a634a.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.37
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.41.34120.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/dev/vcpkg/installed/x64-windows/share/opencv4/OpenCVModules.cmake:34 (find_dependency)"
+      - "C:/dev/vcpkg/installed/x64-windows/share/opencv4/OpenCVConfig.cmake:126 (include)"
+      - "C:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-tr86lk"
+      binary: "C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-tr86lk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/dev/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/dev/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-tr86lk'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1c71d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+        Build started 1/27/2025 8:53:38 AM.
+        
+        Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tr86lk\\cmTC_1c71d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_1c71d.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tr86lk\\Debug\\".
+          Creating directory "cmTC_1c71d.dir\\Debug\\cmTC_1c71d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_1c71d.dir\\Debug\\cmTC_1c71d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_1c71d.dir\\Debug\\cmTC_1c71d.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1c71d.dir\\Debug\\\\" /Fd"cmTC_1c71d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tr86lk\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1c71d.dir\\Debug\\\\" /Fd"cmTC_1c71d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tr86lk\\src.c"
+          src.c
+        C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tr86lk\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tr86lk\\cmTC_1c71d.vcxproj]
+        Done Building Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tr86lk\\cmTC_1c71d.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tr86lk\\cmTC_1c71d.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tr86lk\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tr86lk\\cmTC_1c71d.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.24
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/dev/vcpkg/installed/x64-windows/share/opencv4/OpenCVModules.cmake:34 (find_dependency)"
+      - "C:/dev/vcpkg/installed/x64-windows/share/opencv4/OpenCVConfig.cmake:126 (include)"
+      - "C:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-9q49b5"
+      binary: "C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-9q49b5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/dev/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/dev/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-9q49b5'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4aa85.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+        Build started 1/27/2025 8:53:39 AM.
+        
+        Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9q49b5\\cmTC_4aa85.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_4aa85.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9q49b5\\Debug\\".
+          Creating directory "cmTC_4aa85.dir\\Debug\\cmTC_4aa85.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_4aa85.dir\\Debug\\cmTC_4aa85.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_4aa85.dir\\Debug\\cmTC_4aa85.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4aa85.dir\\Debug\\\\" /Fd"cmTC_4aa85.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9q49b5\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4aa85.dir\\Debug\\\\" /Fd"cmTC_4aa85.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9q49b5\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9q49b5\\Debug\\cmTC_4aa85.exe" /INCREMENTAL /ILK:"cmTC_4aa85.dir\\Debug\\cmTC_4aa85.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-9q49b5/Debug/cmTC_4aa85.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-9q49b5/Debug/cmTC_4aa85.lib" /MACHINE:X64  /machine:x64 cmTC_4aa85.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9q49b5\\cmTC_4aa85.vcxproj]
+        Done Building Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9q49b5\\cmTC_4aa85.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9q49b5\\cmTC_4aa85.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9q49b5\\cmTC_4aa85.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.31
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/dev/vcpkg/installed/x64-windows/share/opencv4/OpenCVModules.cmake:34 (find_dependency)"
+      - "C:/dev/vcpkg/installed/x64-windows/share/opencv4/OpenCVConfig.cmake:126 (include)"
+      - "C:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-ieb8g3"
+      binary: "C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-ieb8g3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/dev/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/dev/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-ieb8g3'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d1190.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+        Build started 1/27/2025 8:53:39 AM.
+        
+        Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ieb8g3\\cmTC_d1190.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_d1190.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ieb8g3\\Debug\\".
+          Creating directory "cmTC_d1190.dir\\Debug\\cmTC_d1190.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_d1190.dir\\Debug\\cmTC_d1190.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_d1190.dir\\Debug\\cmTC_d1190.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d1190.dir\\Debug\\\\" /Fd"cmTC_d1190.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ieb8g3\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d1190.dir\\Debug\\\\" /Fd"cmTC_d1190.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ieb8g3\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ieb8g3\\Debug\\cmTC_d1190.exe" /INCREMENTAL /ILK:"cmTC_d1190.dir\\Debug\\cmTC_d1190.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-ieb8g3/Debug/cmTC_d1190.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-ieb8g3/Debug/cmTC_d1190.lib" /MACHINE:X64  /machine:x64 cmTC_d1190.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ieb8g3\\cmTC_d1190.vcxproj]
+        Done Building Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ieb8g3\\cmTC_d1190.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ieb8g3\\cmTC_d1190.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ieb8g3\\cmTC_d1190.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.28
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+      Build started 1/28/2025 8:18:16 AM.
+      
+      Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\dev\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\dev\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\dev\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\dev\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\dev\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.90
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/3.31.4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+      Build started 1/28/2025 8:18:17 AM.
+      
+      Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\dev\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\dev\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\dev\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\dev\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\dev\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.67
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/3.31.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-731ip2"
+      binary: "C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-731ip2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/dev/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/dev/vcpkg"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-731ip2'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6477e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+        Build started 1/28/2025 8:18:18 AM.
+        
+        Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-731ip2\\cmTC_6477e.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_6477e.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-731ip2\\Debug\\".
+          Creating directory "cmTC_6477e.dir\\Debug\\cmTC_6477e.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_6477e.dir\\Debug\\cmTC_6477e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_6477e.dir\\Debug\\cmTC_6477e.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6477e.dir\\Debug\\\\" /Fd"cmTC_6477e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6477e.dir\\Debug\\\\" /Fd"cmTC_6477e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-731ip2\\Debug\\cmTC_6477e.exe" /INCREMENTAL /ILK:"cmTC_6477e.dir\\Debug\\cmTC_6477e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-731ip2/Debug/cmTC_6477e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-731ip2/Debug/cmTC_6477e.lib" /MACHINE:X64  /machine:x64 cmTC_6477e.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_6477e.vcxproj -> C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-731ip2\\Debug\\cmTC_6477e.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_6477e.dir\\Debug\\cmTC_6477e.tlog\\unsuccessfulbuild".
+          Touching "cmTC_6477e.dir\\Debug\\cmTC_6477e.tlog\\cmTC_6477e.lastbuildstate".
+        Done Building Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-731ip2\\cmTC_6477e.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.34
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.41.34120.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-cv2j97"
+      binary: "C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-cv2j97"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/dev/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/dev/vcpkg"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-cv2j97'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c806b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+        Build started 1/28/2025 8:18:19 AM.
+        
+        Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cv2j97\\cmTC_c806b.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_c806b.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cv2j97\\Debug\\".
+          Creating directory "cmTC_c806b.dir\\Debug\\cmTC_c806b.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_c806b.dir\\Debug\\cmTC_c806b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_c806b.dir\\Debug\\cmTC_c806b.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c806b.dir\\Debug\\\\" /Fd"cmTC_c806b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c806b.dir\\Debug\\\\" /Fd"cmTC_c806b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cv2j97\\Debug\\cmTC_c806b.exe" /INCREMENTAL /ILK:"cmTC_c806b.dir\\Debug\\cmTC_c806b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-cv2j97/Debug/cmTC_c806b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-cv2j97/Debug/cmTC_c806b.lib" /MACHINE:X64  /machine:x64 cmTC_c806b.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_c806b.vcxproj -> C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cv2j97\\Debug\\cmTC_c806b.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_c806b.dir\\Debug\\cmTC_c806b.tlog\\unsuccessfulbuild".
+          Touching "cmTC_c806b.dir\\Debug\\cmTC_c806b.tlog\\cmTC_c806b.lastbuildstate".
+        Done Building Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cv2j97\\cmTC_c806b.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.35
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.41.34120.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/dev/vcpkg/installed/x64-windows/share/opencv4/OpenCVModules.cmake:34 (find_dependency)"
+      - "C:/dev/vcpkg/installed/x64-windows/share/opencv4/OpenCVConfig.cmake:126 (include)"
+      - "C:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-8v1cb0"
+      binary: "C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-8v1cb0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/dev/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/dev/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-8v1cb0'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_dca69.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+        Build started 1/28/2025 8:18:19 AM.
+        
+        Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8v1cb0\\cmTC_dca69.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_dca69.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8v1cb0\\Debug\\".
+          Creating directory "cmTC_dca69.dir\\Debug\\cmTC_dca69.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_dca69.dir\\Debug\\cmTC_dca69.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_dca69.dir\\Debug\\cmTC_dca69.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dca69.dir\\Debug\\\\" /Fd"cmTC_dca69.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8v1cb0\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dca69.dir\\Debug\\\\" /Fd"cmTC_dca69.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8v1cb0\\src.c"
+          src.c
+        C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8v1cb0\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8v1cb0\\cmTC_dca69.vcxproj]
+        Done Building Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8v1cb0\\cmTC_dca69.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8v1cb0\\cmTC_dca69.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8v1cb0\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8v1cb0\\cmTC_dca69.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.23
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/dev/vcpkg/installed/x64-windows/share/opencv4/OpenCVModules.cmake:34 (find_dependency)"
+      - "C:/dev/vcpkg/installed/x64-windows/share/opencv4/OpenCVConfig.cmake:126 (include)"
+      - "C:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-l75sy7"
+      binary: "C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-l75sy7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/dev/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/dev/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-l75sy7'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fe553.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+        Build started 1/28/2025 8:18:20 AM.
+        
+        Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l75sy7\\cmTC_fe553.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_fe553.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l75sy7\\Debug\\".
+          Creating directory "cmTC_fe553.dir\\Debug\\cmTC_fe553.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_fe553.dir\\Debug\\cmTC_fe553.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_fe553.dir\\Debug\\cmTC_fe553.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fe553.dir\\Debug\\\\" /Fd"cmTC_fe553.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l75sy7\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fe553.dir\\Debug\\\\" /Fd"cmTC_fe553.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l75sy7\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l75sy7\\Debug\\cmTC_fe553.exe" /INCREMENTAL /ILK:"cmTC_fe553.dir\\Debug\\cmTC_fe553.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-l75sy7/Debug/cmTC_fe553.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-l75sy7/Debug/cmTC_fe553.lib" /MACHINE:X64  /machine:x64 cmTC_fe553.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l75sy7\\cmTC_fe553.vcxproj]
+        Done Building Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l75sy7\\cmTC_fe553.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l75sy7\\cmTC_fe553.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l75sy7\\cmTC_fe553.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.27
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/dev/vcpkg/installed/x64-windows/share/opencv4/OpenCVModules.cmake:34 (find_dependency)"
+      - "C:/dev/vcpkg/installed/x64-windows/share/opencv4/OpenCVConfig.cmake:126 (include)"
+      - "C:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-o5cpov"
+      binary: "C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-o5cpov"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/dev/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/dev/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-o5cpov'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_379b1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+        Build started 1/28/2025 8:18:20 AM.
+        
+        Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o5cpov\\cmTC_379b1.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_379b1.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o5cpov\\Debug\\".
+          Creating directory "cmTC_379b1.dir\\Debug\\cmTC_379b1.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_379b1.dir\\Debug\\cmTC_379b1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_379b1.dir\\Debug\\cmTC_379b1.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_379b1.dir\\Debug\\\\" /Fd"cmTC_379b1.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o5cpov\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_379b1.dir\\Debug\\\\" /Fd"cmTC_379b1.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o5cpov\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o5cpov\\Debug\\cmTC_379b1.exe" /INCREMENTAL /ILK:"cmTC_379b1.dir\\Debug\\cmTC_379b1.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-o5cpov/Debug/cmTC_379b1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/build/CMakeFiles/CMakeScratch/TryCompile-o5cpov/Debug/cmTC_379b1.lib" /MACHINE:X64  /machine:x64 cmTC_379b1.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o5cpov\\cmTC_379b1.vcxproj]
+        Done Building Project "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o5cpov\\cmTC_379b1.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o5cpov\\cmTC_379b1.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\Arjun\\OneDrive\\Documents\\Lab_Files\\VFD_Solvent_Front_Tests\\SolventgradientToCSV\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o5cpov\\cmTC_379b1.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.27
+        
+      exitCode: 1
+...
