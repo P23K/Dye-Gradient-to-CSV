@@ -1,3 +1,0 @@
-C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/cmake-build-debug/CMakeFiles/your_project_name.dir
-C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Arjun/OneDrive/Documents/Lab_Files/VFD_Solvent_Front_Tests/SolventgradientToCSV/cmake-build-debug/CMakeFiles/rebuild_cache.dir
