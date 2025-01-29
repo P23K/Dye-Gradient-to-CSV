@@ -56,12 +56,12 @@ for solv_idx = 1:num_solvents
     % Plot the shaded confidence interval (without adding to legend)
     fill(x_coords, y_coords, colors{solv_idx}, 'FaceAlpha', 0.3, 'EdgeColor', 'none', 'HandleVisibility', 'off');
 
-    % Plot average mass difference line (with legend entry)
-    plot(rpm_values, avg_mass_diff, 'o-', 'LineWidth', 2, 'Color', colors{solv_idx}, 'DisplayName', solvents{solv_idx});
+    % Plot average mass of remaining solvent (with legend entry)
+    plot(rpm_values, avg_mass_diff, 'o-', 'LineWidth', 2, 'MarkerFaceColor', colors{solv_idx}, 'MarkerEdgeColor',colors{solv_idx}, 'Color', colors{solv_idx}, 'DisplayName', solvents{solv_idx});
 end
 
 xlabel('RPM', 'FontWeight', 'bold');
-ylabel('Average Mass Difference (g)', 'FontWeight', 'bold');
+ylabel('Residual Solvent Mass (g)', 'FontWeight', 'bold');
 legend('Location', 'best', 'FontWeight', 'bold');
 
 % Create figure for temperature difference
@@ -89,7 +89,7 @@ for solv_idx = 1:num_solvents
     fill(x_coords, y_coords, colors{solv_idx}, 'FaceAlpha', 0.3, 'EdgeColor', 'none', 'HandleVisibility', 'off');
 
     % Plot average temperature difference line (with legend entry)
-    plot(rpm_values, avg_temp_diff, 'o-', 'LineWidth', 2, 'Color', colors{solv_idx}, 'DisplayName', solvents{solv_idx});
+    plot(rpm_values, avg_temp_diff, 'o-', 'LineWidth', 2, 'MarkerFaceColor', colors{solv_idx}, 'MarkerEdgeColor', colors{solv_idx}, 'Color', colors{solv_idx}, 'DisplayName', solvents{solv_idx});
 end
 
 xlabel('RPM', 'FontWeight', 'bold');
